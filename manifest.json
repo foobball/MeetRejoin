@@ -7,7 +7,7 @@
           "matches": [
               "https://meet.google.com/_meet/whoops?*"
           ],
-          "js": ["bg.js"],
+          "js": ["retry.js"],
           "run_at": "document_start"
       }, {
           "matches": [
@@ -16,9 +16,9 @@
           "js": ["mute.js"]
       }],
       "icons": {
-          "16": "logo16.png",
-          "48": "logo48.png",
-          "128": "logo128.png"
+          "16": "icons/16.png",
+          "48": "icons/48.png",
+          "128": "icons/128.png"
       },
       "browser_action": {
           "default_popup": "popup.html"
