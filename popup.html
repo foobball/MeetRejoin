@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Popup</title>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            height: 200px;
+            width: 200px;
+            background: url(bg.jpg);
+        }
+        
+        .content {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .center {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            top: 100px;
+            left: 100px;
+            transform: translate(-50%, -50%);
+        }
+        
+        h1,
+        p {
+            margin: 0px;
+            padding: 0px;
+            color: white;
+        }
+        
+        a.button1 {
+            cursor: pointer;
+            display: inline-block;
+            padding: 0.35em 1.2em;
+            border: 0.1em solid #FFFFFF;
+            margin: 0 0.3em 0.3em 0;
+            border-radius: 0.12em;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            color: #FFFFFF;
+            text-align: center;
+            transition: all 0.1s;
+            width: 90%;
+        }
+        
+        a.button1:hover {
+            background-color: #058d7f;
+        }
+        
+        @media all and (max-width:30em) {
+            a.button1 {
+                display: block;
+                margin: 0.4em auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class='content'>
+        <div class='center'>
+            <img alt='logo' src='square.png' height='60px'>
+            <h1>MeetRejoin</h1>
+            <p>by foob</p>
+            <br>
+            <a id='contact' class="button1">Discord</a>
+            <a id='github' class="button1">Github</a>
+        </div>
+    </div>
+
+    <script src='main.js'></script>
+</body>
+
+</html>
