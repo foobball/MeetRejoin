@@ -1,7 +1,7 @@
   {
       "name": "MeetRejoin",
       "version": "1.0.0",
-      "description": "Makes it easier to rejoin a Google Meet straight from the 'hasn't started yet' page.",
+      "description": "Makes it easier to rejoin a Google Meet straight from the 'hasn't started yet' page and mutes your mic automatically.",
       "manifest_version": 2,
       "content_scripts": [{
           "matches": [
@@ -9,6 +9,11 @@
           ],
           "js": ["bg.js"],
           "run_at": "document_start"
+      }, {
+          "matches": [
+              "https://meet.google.com/*"
+          ],
+          "js": ["mute.js"]
       }],
       "icons": {
           "16": "logo16.png",
