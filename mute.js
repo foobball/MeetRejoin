@@ -1,6 +1,6 @@
 let interval = window.setInterval(() => {
     if (document.getElementsByClassName('sUZ4id').length == 2) {
-        if (document.getElementsByClassName('sUZ4id')[0].children !== undefined) {
+        if (document.getElementsByClassName('sUZ4id')[0].children.length !== 0) {
             let i = 0;
             let muting = setInterval(() => {
                 let muteButton = document.getElementsByClassName('sUZ4id')[0].children[0];
@@ -12,4 +12,4 @@ let interval = window.setInterval(() => {
             clearInterval(interval);
         }
     }
-}, 1000)
+}, 100)
