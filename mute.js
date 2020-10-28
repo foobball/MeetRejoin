@@ -7,6 +7,7 @@ let interval = window.setInterval(() => {
                 let camButton = document.getElementsByClassName('sUZ4id')[1].children[0];
                 if (muteButton.dataset.isMuted == "false") muteButton.click();
                 if (camButton.dataset.isMuted == "false") camButton.click();
+                i++;
                 if (i > 20) clearInterval(muting);
             }, 100)
             clearInterval(interval);

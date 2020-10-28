@@ -1,4 +1,4 @@
-const vers = "2.2.1";
+const vers = "2.3.1";
 
 document.getElementById('vers').innerText = `Version ${vers}`;
 /*document.getElementById('contact').addEventListener("click", () => {
