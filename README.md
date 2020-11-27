@@ -1,8 +1,7 @@
 # MeetRejoin
 A simple Google Meets chrome extension that makes it easy to rejoin from the error page and mutes your microphone when you join a call.
----
-I submitted this to the chrome web store but it takes them up to a week to review sooooo...
 
+Link on Chrome Web Store: https://chrome.google.com/webstore/detail/meetrejoin/bickjlhloaddmjnanlhdcoedebngamnn
 ---
 
 ## Rejoin meetings that haven't started
